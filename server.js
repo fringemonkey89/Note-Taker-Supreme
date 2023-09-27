@@ -24,8 +24,8 @@ app.get('/notes', (req, res) =>
 
 //defines the route for the /api/notes url using app.get(), it responds by sending the db JSON file as the response  
 //using res.json();. used to retrieve notes from the JSON database
-app.get('/api/notes', (req, res) => 
-res.json(notes));
+app.get('/api/notes', (req, res) => {
+res.json(notes)});
 
 //defines a route for the /api/notes url using app.post
 app.post('/api/notes', (req, res) => {
