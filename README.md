@@ -24,6 +24,8 @@
 
 ## Link to Deployed Site
 
+https://note-taker-supreme-05d95fb0f9e2.herokuapp.com/
+
 ## License
 
 MIT license
